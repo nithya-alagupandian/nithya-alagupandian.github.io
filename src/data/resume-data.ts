@@ -24,6 +24,8 @@ import {
   SiPostman,
   SiGithub,
   SiOpenai,
+  SiMongodb,
+  SiMysql,
 } from "react-icons/si";
 import { FaJava, FaCubes } from "react-icons/fa";
 import { MdSecurity } from "react-icons/md";
@@ -88,6 +90,16 @@ export const skills: Skill[] = [
     name: "Oracle DB",
     category: "Databases & Caching",
     icon: SiOracle,
+  },
+  {
+    name: "MongoDB",
+    category: "Databases & Caching",
+    icon: SiMongodb,
+  },
+  {
+    name: "MySQL",
+    category: "Databases & Caching",
+    icon: SiMysql,
   },
   {
     name: "Redis",
